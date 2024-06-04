@@ -1,3 +1,3 @@
-# Heicoders Currency Converter
+# Heicoders Academy SE100 CApstone Project
 
-Uses React, Vite, ExchangeRate-API
+Uses React, Vite, AlphaVantage-API
