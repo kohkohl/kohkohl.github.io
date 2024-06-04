@@ -1,0 +1,70 @@
+.for-submission {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  column-gap: 25px;
+}
+
+.for-submission input {
+  background-color: #d7b565;
+  color: black;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.for-submission input::placeholder {
+  color: #777; /* Change placeholder color to gray */
+  text-align: center;
+  font-size: 16px;
+}
+.for-submission button {
+  padding: 10px 20px;
+  background-color: pink;
+  color: black;
+  border: white solid;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+
+.for-submission button:hover {
+  background-color: #0056b3;
+}
+
+.for-submission button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+.results {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  background-color: pink;
+  color: black;
+  border: white solid;
+  border-radius: 4px;
+  width: 1000px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stock-profit {
+  color: green;
+}
+
+.stock-loss {
+  color: red;
+}
