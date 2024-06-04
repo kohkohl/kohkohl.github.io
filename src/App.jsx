@@ -12,7 +12,7 @@ function App() {
   return (
     <StockContext.Provider value = {value}>
       <div>
-        <h1>Stock Management App</h1>
+        <h1>Stock Management Application</h1>
         <StockForm />
       </div>
     </StockContext.Provider>
