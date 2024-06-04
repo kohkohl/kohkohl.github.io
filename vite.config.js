@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/kohkohl/",
+  base: "/kohkohl.github.io/",
   plugins: [react()],
   test: {
     globals: true,
