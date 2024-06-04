@@ -5,6 +5,7 @@
   align-items: center;
   margin: 10px;
   column-gap: 25px;
+  flex-wrap: wrap;
 }
 
 .for-submission input {
@@ -59,6 +60,7 @@
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .stock-profit {
@@ -67,4 +69,39 @@
 
 .stock-loss {
   color: red;
+}
+
+@media (max-width: 600px) {
+  .for-submission {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .for-submission input,
+  .for-submission button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .results {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+/* Responsive layout for larger screens */
+@media (min-width: 601px) {
+  .for-submission {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .results {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    height: auto;
+  }
 }
